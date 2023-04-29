@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup as BS
 
-df = pd.read_excel(r"C:\Users\MyPc\Desktop\Others\Job\ZALORA\4. Required Files\Question 1 Dataset.xlsx")
+df = pd.read_excel(r"C:\Users\MyPc\Desktop\Others\Job\ZALORA_project\4. Required Files\Question 1 Dataset.xlsx")
 article_numbers = df["Article Number"].tolist()
 
 def scrape_images_and_videos(article_number):
